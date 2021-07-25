@@ -6,4 +6,5 @@
 - Constructors
 - Destructors
 - Friend Function
+- Static Keyword
 
