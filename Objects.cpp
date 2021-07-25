@@ -19,7 +19,7 @@ class Student{
     int print(){
 
         cout << "Printing from the Class Function!" << endl;
-        cout <<  "Student Name : "<< name << " and Student ID : " << id << endl;
+        cout << "Student Name : "<< name << " and Student ID : " << id << endl;
         cout << endl;
         return 0;
     }
@@ -31,8 +31,8 @@ int main(){
     Student s1; 
 
     // Initializing the name attribute of the s1 object.
-    s1.name = "Aayush Khandekar"; 
-    s1.id = 007;
+    s1.name = "John Doe"; 
+    s1.id = 1;
 
     s1.print();
 
