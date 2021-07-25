@@ -30,9 +30,9 @@ class Student {
 int main(){
 
     Student s1;
-    Student s2 = Student("Aayush Khandekar", 007);
+    Student s2 = Student("John Doe", 1);
 
-    // Default value for string is "  " and for int is garbage or random.
+    // Default value for string is " " and for int is garbage or random.
     s1.print(); 
     s2.print();
     

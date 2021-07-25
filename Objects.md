@@ -17,3 +17,8 @@
 
 - A class has data members, methods, etc.
 
+- Size of an empty class is NOT zero. It is generally one byte. (https://www.geeksforgeeks.org/why-is-the-size-of-an-empty-class-not-zero-in-c/)
+
+- In C++, the default access specifier is 'private'.
+
+-
