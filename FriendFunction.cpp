@@ -1,26 +1,32 @@
 #include <iostream>
 using namespace std;
 
-class Friend {
+class FriendClass {
 
     private:
-    int id = 007;
+    int id = 7;
+
+    protected:
+    int number = 10;
 
     public:
-    friend int print(string name , Friend);
+    friend int print(string name , FriendClass);
 };
 
-int print(string name, Friend f){
+// Passing an object to the Friend Function
+int print(string name, FriendClass f){
 
-    cout << "Hello World!" << endl;
-    cout << "Hello! I am " << name << endl;
+    cout << "Name : " << name << endl;
     cout << "ID : " << f.id << endl;
+    cout << "Numebr : " << f.number << endl;
     return 0;
 }
 
 int main(){
 
-    Friend f;
-    print("Aayush Khandekar" , f);
+    FriendClass f;
+
+    // Friend Function Call
+    print("John Doe" , f);
     return 0;
 }
