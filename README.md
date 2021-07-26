@@ -8,3 +8,4 @@
 - Friend Function
 - Static Keyword
 - Enumeration
+- Structs
