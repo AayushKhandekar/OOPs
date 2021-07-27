@@ -1,4 +1,4 @@
-# Static
+# Static Keyword
 
 - Static belongs to 'type' and not 'instance'.
 
