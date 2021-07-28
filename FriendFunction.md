@@ -2,7 +2,7 @@
 
 - A friend function can access the protected and the private data of a class.
 
-- Keyword - friend
+- Keyword - 'friend'
 
 - Function can be defined anywhere in the program.
 
