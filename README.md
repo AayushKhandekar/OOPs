@@ -10,3 +10,4 @@
 - Enumeration
 - Structs
 - Abstraction
+- Inheritance
