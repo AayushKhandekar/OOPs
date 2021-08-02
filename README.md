@@ -11,3 +11,4 @@
 - Structs
 - Abstraction
 - Inheritance
+- Polymorphism
